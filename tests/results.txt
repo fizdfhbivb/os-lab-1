@@ -1,0 +1,29 @@
+Linux version
+Ubuntu 24.04.5 LTS, WSL 2
+GCC 13.3.0, Python 3.12.3
+Build flags: -std=c11 -Wall -Wextra -Wpedantic -Werror -O2
+Build: PASS, no warnings
+PASS composites followed by prime
+PASS negative stops immediately
+PASS prime 2 stops immediately
+PASS zero and one are skipped
+PASS signed INT_MIN
+PASS INT_MAX is prime
+PASS final line without newline
+PASS CRLF spaces and plus sign
+PASS empty command stream
+PASS manual exit
+PASS malformed input
+PASS multiple integers rejected
+PASS positive overflow
+PASS negative overflow
+PASS embedded NUL rejected
+PASS empty line rejected
+PASS too long line rejected
+PASS UTF-8 path with spaces
+PASS existing file is truncated
+PASS unavailable output directory
+PASS quotation in Linux filename
+PASS 1000 composite numbers
+PASS missing child executable
+23/23 integration tests passed
